@@ -85,9 +85,6 @@ namespace HX711 {
         return value
     }
 
-
-    //% blockId="HX711_READ" block="读取电子秤数值"
-    //% weight=80 blockGap=8
     export function read(): number {
 
         // Wait for the chip to become ready.
